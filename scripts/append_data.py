@@ -4,8 +4,8 @@ from datetime import datetime, timezone
 import requests
 
 DATA_FILE = "data.json"
-LATITUDE = 51.07
-LONGITUDE = -1.78
+LATITUDE = 51.5
+LONGITUDE = -0.0
 
 # 1. Load existing data (handle first-run case where file doesn't exist yet)
 if os.path.exists(DATA_FILE):
